@@ -1,0 +1,8 @@
+<!--pages/detail/detail.wxml-->
+<view class='detail'>
+  <view class='title'>{{info.title}}</view>
+  <view class='date'>{{info.cTime}}</view>
+  <view class='img'><image src="{{info.img}}" mode="scaleToFill"></image></view>
+  <view class='content'>{{info.content}}</view>
+  <view bindtap="goBack" class='back' hidden="{{backHidden}}">返回</view>
+</view>

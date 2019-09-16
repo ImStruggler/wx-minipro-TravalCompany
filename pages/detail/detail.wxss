@@ -1,0 +1,33 @@
+/* pages/detail/detail.wxss */
+.detail{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx;
+  font-size: 16px;
+}
+.title{
+  font-size: 20px;
+  text-align: left;
+  padding: 20rpx;
+}
+.date{
+  padding: 20rpx;
+  color: #aaa;
+  
+}
+.img{
+  text-align: center;
+  padding: 20rpx;
+}
+.img image{
+  width: 620rpx;
+  height: 450rpx;
+}
+.content{text-indent: 2em;line-height: 20px;letter-spacing: 0.5px;padding: 15rpx;}
+.back{
+  font-size: 20px;
+  margin: 30px;
+  text-align: center;
+  color: #aaa;
+}

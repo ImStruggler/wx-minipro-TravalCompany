@@ -1,0 +1,10 @@
+/* pages/aboutme/aboutme.wxss */
+.about{}
+.about-comp{text-align: center;}
+.about-img{display: block;margin: 20px auto 0;}
+.in-img{width: 150px;height: 105px;}
+.about-title{display: inline-block;margin: 20px 0;}
+
+.about-content{text-indent: 2em;font-size: 16px;margin: 0 24px;line-height: 1.5;}
+.about-addr{font-size: 16px;line-height: 2;text-indent:2em;}
+.about-tab{margin-top:20px;}

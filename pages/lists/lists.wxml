@@ -1,0 +1,29 @@
+<!--pages/lists/lists.wxml-->
+
+<view class="lists">
+
+  <!-- 文章列表模板 begin-->
+  <template name="list" >
+    <navigator url="/pages/detail/detail?id={{id}}" hover-class="">
+      <view class="img">
+        <image src='{{img}}' mode='aspectFill' lazy-load='true'></image>
+      </view>
+      <view class='infos'>
+        <view class='title'>
+          {{title}}          
+        </view>
+        <view class='date'>{{cTime}}</view>        
+      </view>      
+    </navigator>
+  </template>
+  <!-- 文章列表模板 end-->
+  
+  <!-- 循环输出列表 begin -->
+  <block wx:for="{{newsLists}}" class="list" wx:key="item">
+    <template is="list" data="{{...item}}"></template>
+  </block>
+  <!-- 循环输出列表 end -->
+
+  <view bindtap="loadMore" data-lastid="{{lastid}}" hidden="{{moreHidden}}" class="loadmore">{{msg}}</view>
+  <!-- <toast hidden="{{toastHidden}}" bindchange="toastChange" duration="3000">没有文章了</toast> -->
+</view>

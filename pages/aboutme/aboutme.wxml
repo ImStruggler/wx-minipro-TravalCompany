@@ -1,0 +1,17 @@
+<!--aboutme.wxml-->
+<view class="about">
+  <view class='about-comp'>
+    <view class='about-img'><image src="{{img}}" class='in-img' background-size="cover" ></image></view>
+    <view class='about-title'>{{title}}</view>
+  </view>
+
+  <view class='about-content'>{{intro}}</view>
+
+  <view class='about-addr'>
+    <view class='about-tab'>{{contab}}</view>
+    <view >地址：{{address}}</view>
+    <view>邮政编码：{{post}}</view>
+    <view>联系方式：{{tell}}</view>
+    <view>邮箱地址{{email}}</view>
+  </view>
+</view>

@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/aboutme/aboutme",
+    "pages/lists/lists",
+    "pages/detail/detail",
+    "pages/form/form"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "候鸟旅行有限公司",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar":{
+    "color":"#000",
+    "backgroundColor":"#fff",
+    "selectedColor": "#333",
+    "borderStyle":"black",
+    "list":[{
+      "pagePath":"pages/lists/lists",
+      "text":"首页",
+      "iconPath":"images/4.jpg",
+      "selectedIconPath":"images/11.jpg"      
+    },{
+      "pagePath": "pages/aboutme/aboutme",
+      "text": "关于我们",
+      "iconPath": "images/10.jpg",
+      "selectedIconPath": "images/8.jpg"      
+    },{
+      "pagePath": "pages/form/form",
+      "text": "用户反馈",
+      "iconPath": "images/6.jpg",
+      "selectedIconPath": "images/9.jpg"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}
